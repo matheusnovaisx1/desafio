@@ -68,9 +68,9 @@ class FormularioCadastro extends Component {
           className="form-cadastro_input"
           onChange={this._handleMudancaTexto.bind(this)}
         />
-       {/*<button className="form-cadastro_input form-cadastro_submit">
+       <button className="form-cadastro_input form-cadastro_submit">
           Criar Nota
-        </button>*/}
+        </button>
       </form>
     );
   }
