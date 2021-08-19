@@ -56,20 +56,20 @@ class FormularioCadastro extends Component {
             return <option key={index} >{categoria}</option>;
           })}
         </select>
-        <select
+        <textarea
           type="text"
-          placeholder="Título"
+          placeholder="Nome do Carro"
           className="form-cadastro_input"
           onChange={this._handleMudancaTitulo.bind(this)}
         />
         <textarea
           rows={15}
-          placeholder="Escreva sua nota..."
+          placeholder="Ecreva aqui a especificação do carro."
           className="form-cadastro_input"
           onChange={this._handleMudancaTexto.bind(this)}
         />
        <button className="form-cadastro_input form-cadastro_submit">
-          Criar Nota
+          Criar
         </button>
       </form>
     );
